@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  height: 100vh;
+  width: 100%;
+  background-color: #9ba9eb;
+  padding: 100px;
+  font-family: 'Roboto';
+}
+
+.appLogo {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 50vh;
+  background-color: #5763a5;
+  padding: 40px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.addDetails {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 350px;
+  background-color: #454f84;
+  border-radius: 5px;
+  color: #f8fafc;
+}
+
+.detailHeading {
+  font-size: 15px;
+}
+
+.inputHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f8fafc;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.inputImage {
+  width: 15px;
+  margin: 10px;
+  height: 15px;
+}
+
+.inputElement {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  font-size: 10px;
+  padding: 5px;
+  border-left-color: #94a3b8;
+  border-left-width: 1px;
+}
+
+.addBtn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 10px;
+  width: 60px;
+  padding: 5px;
+  border-style: none;
+  outline: none;
+  border-radius: 2px;
+  align-self: flex-end;
+}
+
+.firstSubContainerImage1 {
+  width: 25%;
+  height: 100%;
+}
+
+.firstSubContainerImage2 {
+  display: none;
+}
+
+.secondSubContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 50vh;
+  background-color: #5763a5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.yourPassword {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.headingName {
+  color: #f8fafc;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.coloredText {
+  border-style: solid;
+  border-color: #9ba9eb;
+  border-width: 1px;
+  border-radius: 10px;
+  width: 20px;
+  text-align: center;
+  color: #f8fafc;
+  font-size: 12px;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f8fafc;
+  width: 180px;
+  height: 22px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.horizontal {
+  background-color: #9ba9eb;
+  border-style: none;
+  width: 100%;
+}
+
+.showPasswords {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.checkBox {
+  width: 15px;
+  height: 15px;
+  border-style: none;
+  outline: none;
+  margin-right: 10px;
+}
+
+.labelPassword {
+  color: #f8fafc;
+  font-size: 12px;
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.emptyImage {
+  width: 220px;
+  height: 170px;
+}
+
+.noPasswords {
+  color: #f8fafc;
+  font-size: 14px;
+}
+
+.resultContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.itemList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+  height: 90px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #9ba9eb;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 12px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+}
+
+.initial {
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #10b981;
+  width: 35px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.listContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #f8fafc;
+  height: 100%;
+}
+
+.website {
+  font-size: 12px;
+  margin: 2px;
+}
+
+.starsImage {
+  width: 90px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.delButton {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+}
+
+.delImage {
+  width: 20%;
+  height: 20px;
+}
+
+.yellow {
+  background-color: #f59e0b;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.brown {
+  background-color: #b91c1c;
+}
+
+.blue {
+  background-color: #0ea5e9;
+}
+
+@media screen and (max-width: 768px) {
+  .subContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .firstSubContainerImage1 {
+    display: none;
+  }
+
+  .firstSubContainerImage2 {
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 18px;
+  }
+
+  .secondSubContainer {
+    min-height: 50vh;
+  }
+
+  .resultContainer {
+    justify-content: center;
+  }
+}
+
+
